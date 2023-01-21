@@ -1,0 +1,5 @@
+print(int("12") + 12)
+print("There are " + str(22) + " oranges.")
+print("There are " + str(22) + " oranges.")
+print("There are ", 22, " oranges.")
+print(float('22.33') + 22.55)
