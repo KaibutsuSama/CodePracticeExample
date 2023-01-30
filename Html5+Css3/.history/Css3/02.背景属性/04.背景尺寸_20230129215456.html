@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.img_wrap {
+			display: flex;
+		}
+
+		.img {
+			width: 200px;
+			height: 200px;
+			border:1px solid red;
+			background: url(http://img.smyhvae.com/20191006_1330.jpg) no-repeat;
+			margin-right: 20px;
+		}
+
+		.div1 {
+			background-size: cover;
+		}
+		.div2{
+			background-size: contain;
+		}
+	</style>
+</head>
+
+<body>
+	<section class="img_wrap">
+		<div class="img div1"></div>
+		<div class="img div2"></div>
+
+	</section>
+</body>
+
+</html>
